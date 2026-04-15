@@ -1,0 +1,466 @@
+<!-- Ayün Mapu - Inicio (Solo Texto) 2026 -->
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed": "#261a00",
+                    "tertiary-container": "#ff8573",
+                    "primary": "#795900",
+                    "on-secondary-fixed": "#001c3b",
+                    "on-error": "#ffffff",
+                    "primary-container": "#d4a017",
+                    "outline-variant": "#d3c5ae",
+                    "secondary-fixed": "#d5e3ff",
+                    "secondary-fixed-dim": "#a7c8ff",
+                    "on-secondary": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#f3f0ef",
+                    "surface-container-low": "#f6f3f2",
+                    "surface-container-high": "#eae7e7",
+                    "on-secondary-fixed-variant": "#124782",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-fixed": "#410000",
+                    "on-background": "#1b1c1c",
+                    "on-tertiary-container": "#810000",
+                    "on-primary-container": "#503a00",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-tint": "#795900",
+                    "on-error-container": "#93000a",
+                    "surface-container": "#f0eded",
+                    "surface-dim": "#dcd9d9",
+                    "on-primary-fixed-variant": "#5c4300",
+                    "surface-container-highest": "#e5e2e1",
+                    "primary-fixed": "#ffdfa0",
+                    "inverse-surface": "#303030",
+                    "outline": "#817662",
+                    "tertiary-fixed-dim": "#ffb4a8",
+                    "inverse-primary": "#f6be39",
+                    "tertiary-fixed": "#ffdad4",
+                    "surface-bright": "#fcf9f8",
+                    "on-surface-variant": "#4f4634",
+                    "on-surface": "#1b1c1c",
+                    "secondary-container": "#93bdff",
+                    "error-container": "#ffdad6",
+                    "surface-variant": "#e5e2e1",
+                    "primary-fixed-dim": "#f6be39",
+                    "on-secondary-container": "#194b86",
+                    "background": "#fcf9f8",
+                    "secondary": "#325f9b",
+                    "tertiary": "#b52619",
+                    "on-tertiary-fixed-variant": "#920703",
+                    "surface": "#fcf9f8",
+                    "error": "#ba1a1a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .text-gradient {
+            background: linear-gradient(to bottom right, #795900, #d4a017);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-reveal {
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.8s ease;
+        }
+        .hover-lift {
+            transition: transform 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: translateY(-4px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fcf9f8]/80 dark:bg-[#1b1c1c]/80 backdrop-blur-md border-b border-outline-variant/20">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-5">
+<div class="text-2xl font-bold font-['Noto_Serif'] text-[#795900] dark:text-[#D4A017] tracking-tight">Ayün Mapu</div>
+<div class="hidden md:flex items-center gap-12">
+<a class="text-[#795900] dark:text-[#D4A017] border-b-2 border-[#795900] pb-1 font-['Noto_Serif'] text-lg font-medium tracking-tight" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Herencia">Herencia</a>
+<a class="text-[#325f9b] dark:text-[#d3c5ae] font-['Manrope'] text-lg font-medium tracking-tight hover:text-[#795900] transition-colors duration-300" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20la%20Academia">Academia</a>
+<a class="text-[#325f9b] dark:text-[#d3c5ae] font-['Manrope'] text-lg font-medium tracking-tight hover:text-[#795900] transition-colors duration-300" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Clases">Clases</a>
+<a class="text-[#325f9b] dark:text-[#d3c5ae] font-['Manrope'] text-lg font-medium tracking-tight hover:text-[#795900] transition-colors duration-300" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20el%20Calendario">Calendario</a>
+</div>
+<a class="bg-primary hover:bg-primary-container transition-all duration-300 text-on-primary px-8 py-2.5 rounded-full font-bold text-sm uppercase tracking-widest shadow-md" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20clases%20por%20WhatsApp">
+    WhatsApp
+</a>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center px-8">
+<div class="max-w-7xl mx-auto w-full">
+<div class="max-w-4xl">
+<span class="text-secondary font-bold tracking-[0.3em] uppercase text-sm mb-6 block animate-pulse">Tradición en Movimiento — Ciclo 2026</span>
+<h1 class="font-headline text-6xl md:text-9xl font-bold text-on-surface leading-[0.9] mb-12 tracking-tighter">
+    El Alma del <br/>
+<span class="text-gradient">Folklore</span>
+</h1>
+<p class="text-on-surface-variant text-xl md:text-2xl max-w-2xl mb-12 leading-relaxed font-light">
+    Un espacio donde la danza trasciende el tiempo. En Ayün Mapu, honramos nuestras raíces a través de la excelencia técnica y la pasión cultural.
+</p>
+<div class="flex flex-wrap gap-6">
+<a class="bg-primary text-on-primary px-10 py-5 rounded-full font-bold text-lg hover:bg-primary-container transition-all shadow-xl hover:-translate-y-1" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20el%20inicio%20de%20clases">Inscribirse Ahora</a>
+<a class="border-2 border-outline-variant text-on-surface px-10 py-5 rounded-full font-bold text-lg hover:bg-surface-container-low transition-all" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Herencia">Conocer Herencia</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Section (Pure Typographic Bento) -->
+<section class="py-24 px-8 border-y border-outline-variant/10">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-outline-variant/20 border border-outline-variant/20 rounded-2xl overflow-hidden">
+<!-- Stat 1 -->
+<div class="bg-surface-container-lowest p-16 flex flex-col justify-center items-center text-center">
+<span class="text-primary font-headline text-7xl font-bold mb-4">10+</span>
+<p class="font-body text-on-surface-variant font-bold uppercase tracking-[0.2em] text-xs">Años formando maestros</p>
+</div>
+<!-- Stat 2 -->
+<div class="bg-primary p-16 flex flex-col justify-center items-center text-center text-on-primary">
+<span class="font-headline text-8xl font-bold mb-4">200+</span>
+<p class="font-body opacity-80 font-bold uppercase tracking-[0.2em] text-sm">Alumnos activos</p>
+</div>
+<!-- Stat 3 -->
+<div class="bg-surface-container-lowest p-16 flex flex-col justify-center items-center text-center">
+<span class="text-secondary font-headline text-7xl font-bold mb-4">100%</span>
+<p class="font-body text-on-surface-variant font-bold uppercase tracking-[0.2em] text-xs">Identidad Cultural</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Dynamic Classes Section -->
+<section class="py-32 px-8 overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+<div class="max-w-2xl">
+<h2 class="font-headline text-5xl md:text-7xl font-bold mb-8 tracking-tight">Nuestras Disciplinas</h2>
+<p class="text-on-surface-variant text-xl leading-relaxed">Explora la riqueza del movimiento argentino. Formación técnica en zapateo, tango y danzas tradicionales para el Ciclo 2026.</p>
+</div>
+<a class="text-primary font-bold text-lg border-b-2 border-primary pb-1 hover:text-primary-container hover:border-primary-container transition-colors" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20el%20cronograma%20completo">
+    Ver cronograma completo
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Class Card 1 -->
+<a class="group block p-12 bg-surface-container-lowest border border-outline-variant/10 rounded-3xl hover:border-primary/30 transition-all hover:shadow-2xl hover:-translate-y-2" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Folklore%20Argentino">
+<span class="text-xs font-bold text-secondary uppercase tracking-[0.3em] mb-4 block">Nivel Inicial y Avanzado</span>
+<h3 class="font-headline text-3xl font-bold mb-6 group-hover:text-primary transition-colors">Folklore Tradicional</h3>
+<p class="text-on-surface-variant leading-relaxed text-lg mb-8">Un recorrido por las danzas de todas las regiones, conectando con nuestra tierra y sus sonidos.</p>
+<span class="text-primary font-bold uppercase text-xs tracking-widest">Consultar Disponibilidad</span>
+</a>
+<!-- Class Card 2 -->
+<a class="group block p-12 bg-surface-container-lowest border border-outline-variant/10 rounded-3xl hover:border-primary/30 transition-all hover:shadow-2xl hover:-translate-y-2" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Tango%20Sal%C3%B3n">
+<span class="text-xs font-bold text-secondary uppercase tracking-[0.3em] mb-4 block">Técnica y Estilo</span>
+<h3 class="font-headline text-3xl font-bold mb-6 group-hover:text-primary transition-colors">Tango Salón</h3>
+<p class="text-on-surface-variant leading-relaxed text-lg mb-8">Elegancia, abrazo y conexión. La técnica necesaria para deslizarse por las pistas del mundo.</p>
+<span class="text-primary font-bold uppercase text-xs tracking-widest">Consultar Disponibilidad</span>
+</a>
+<!-- Class Card 3 -->
+<a class="group block p-12 bg-primary border border-primary/10 rounded-3xl transition-all hover:shadow-2xl hover:-translate-y-2 relative overflow-hidden" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Malambo%20y%20Bombo">
+<div class="absolute top-0 right-0 bg-tertiary text-on-tertiary px-6 py-2 rounded-bl-2xl text-xs font-bold tracking-widest">NUEVO</div>
+<span class="text-xs font-bold text-on-primary/70 uppercase tracking-[0.3em] mb-4 block">Fuerza y Destreza</span>
+<h3 class="font-headline text-3xl font-bold mb-6 text-on-primary">Malambo &amp; Bombo</h3>
+<p class="text-on-primary/80 leading-relaxed text-lg mb-8">Rítmica y potencia. Una formación integral en la percusión y el zapateo más representativo.</p>
+<span class="text-on-primary font-bold uppercase text-xs tracking-widest">Consultar Disponibilidad</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Philosophy Section (Pure Typographic Focus) -->
+<section class="bg-primary-fixed py-40 px-8 relative overflow-hidden">
+<div class="max-w-5xl mx-auto text-center">
+<div class="w-24 h-px bg-primary mx-auto mb-16 opacity-30"></div>
+<h2 class="font-headline text-5xl md:text-7xl font-bold mb-12 leading-tight text-on-primary-fixed tracking-tight">Nuestra Visión: <br/>La Danza como Identidad</h2>
+<p class="font-body text-2xl md:text-3xl text-on-primary-fixed-variant leading-relaxed mb-16 italic font-light">
+    "En Ayün Mapu no solo enseñamos pasos; cultivamos el respeto por la historia que cada movimiento cuenta. Formamos artistas íntegros que llevan la bandera cultural en cada presentación."
+</p>
+<div class="w-24 h-px bg-primary mx-auto opacity-30"></div>
+</div>
+</section>
+<!-- CTA WhatsApp Section -->
+<section class="py-24 px-8">
+<div class="max-w-7xl mx-auto">
+<div class="bg-secondary rounded-[3rem] p-12 md:p-24 text-on-secondary relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-16">
+<div class="z-10 text-center md:text-left max-w-2xl">
+<span class="text-sm font-bold uppercase tracking-[0.4em] mb-6 block opacity-70">Admisiones Ciclo 2026</span>
+<h2 class="font-headline text-5xl md:text-7xl font-bold mb-8 leading-[0.9] tracking-tighter">Comienza tu viaje hoy</h2>
+<p class="text-xl md:text-2xl opacity-90 leading-relaxed font-light">Únete a nuestra comunidad de más de 200 alumnos y descubre tu propia forma de sentir la cultura argentina.</p>
+</div>
+<div class="z-10 w-full md:w-auto">
+<a class="w-full inline-block text-center bg-on-secondary text-secondary px-12 py-6 rounded-full font-bold text-xl hover:bg-secondary-fixed transition-all shadow-2xl hover:scale-105" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20el%20inicio%20de%20clases">
+    Consultar por WhatsApp
+</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fcf9f8] dark:bg-[#1b1c1c] w-full py-20 px-8 border-t border-outline-variant/10">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">
+<div class="space-y-6 text-center md:text-left">
+<div class="font-['Noto_Serif'] font-bold text-3xl text-[#795900] dark:text-[#D4A017] tracking-tighter">Ayün Mapu</div>
+<p class="text-[#325f9b] opacity-80 font-['Manrope'] text-xs font-bold uppercase tracking-[0.3em] leading-relaxed">Academia de Danzas Folclóricas y Tango — Ciclo 2026</p>
+</div>
+<div class="flex flex-col items-center gap-6">
+<a class="text-[#325f9b] font-bold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Herencia">Herencia</a>
+<a class="text-[#325f9b] font-bold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Academia">Academia</a>
+<a class="text-[#325f9b] font-bold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Clases">Clases</a>
+<a class="text-[#325f9b] font-bold text-sm uppercase tracking-widest hover:text-primary transition-colors" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20Calendario">Calendario</a>
+</div>
+<div class="text-center md:text-right space-y-6">
+<p class="text-[#325f9b] opacity-80 font-['Manrope'] text-xs uppercase tracking-widest">© 2026 Ayün Mapu. Creado por <a class="font-bold border-b border-[#325f9b] hover:text-[#795900] transition-colors" href="https://studio-portfolio-two.vercel.app/">Studio</a></p>
+<div class="flex justify-center md:justify-end gap-12 pt-4">
+<a class="text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 hover:border-primary transition-all" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20clases">Inscripciones</a>
+<a class="text-xs font-bold uppercase tracking-widest text-primary border-b border-primary/20 hover:border-primary transition-all" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis,%20quiero%20averiguar%20sobre%20la%20ubicacion">Ubicación</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
+
+<!-- Oferta Académica (Solo Texto) 2026 -->
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Manrope:wght@300;400;500;700;800&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed": "#261a00",
+                        "tertiary-container": "#ff8573",
+                        "primary": "#795900",
+                        "on-secondary-fixed": "#001c3b",
+                        "on-error": "#ffffff",
+                        "primary-container": "#d4a017",
+                        "outline-variant": "#d3c5ae",
+                        "secondary-fixed": "#d5e3ff",
+                        "secondary-fixed-dim": "#a7c8ff",
+                        "on-secondary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "surface-container-low": "#f6f3f2",
+                        "surface-container-high": "#eae7e7",
+                        "on-secondary-fixed-variant": "#124782",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-fixed": "#410000",
+                        "on-background": "#1b1c1c",
+                        "on-tertiary-container": "#810000",
+                        "on-primary-container": "#503a00",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-tint": "#795900",
+                        "on-error-container": "#93000a",
+                        "surface-container": "#f0eded",
+                        "surface-dim": "#dcd9d9",
+                        "on-primary-fixed-variant": "#5c4300",
+                        "surface-container-highest": "#e5e2e1",
+                        "primary-fixed": "#ffdfa0",
+                        "inverse-surface": "#303030",
+                        "outline": "#817662",
+                        "tertiary-fixed-dim": "#ffb4a8",
+                        "inverse-primary": "#f6be39",
+                        "tertiary-fixed": "#ffdad4",
+                        "surface-bright": "#fcf9f8",
+                        "on-surface-variant": "#4f4634",
+                        "on-surface": "#1b1c1c",
+                        "secondary-container": "#93bdff",
+                        "error-container": "#ffdad6",
+                        "surface-variant": "#e5e2e1",
+                        "primary-fixed-dim": "#f6be39",
+                        "on-secondary-container": "#194b86",
+                        "background": "#fcf9f8",
+                        "secondary": "#325f9b",
+                        "tertiary": "#b52619",
+                        "on-tertiary-fixed-variant": "#920703",
+                        "surface": "#fcf9f8",
+                        "error": "#ba1a1a"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Noto Serif"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+        h1, h2, h3 { font-family: 'Noto Serif', serif; }
+        .organic-gradient { background: linear-gradient(135deg, #795900 0%, #d4a017 100%); }
+    </style>
+</head>
+<body class="bg-background text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#fcf9f8]/80 dark:bg-[#1b1c1c]/80 backdrop-blur-md shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4">
+<span class="text-2xl font-bold font-['Noto_Serif'] text-[#795900] dark:text-[#D4A017]">Ayün Mapu</span>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#325f9b] dark:text-[#d3c5ae] font-['Manrope'] hover:text-[#795900] transition-colors duration-300" href="#">Herencia</a>
+<a class="text-[#795900] dark:text-[#D4A017] border-b-2 border-[#795900] pb-1 font-['Manrope']" href="#">Academia</a>
+<a class="text-[#325f9b] dark:text-[#d3c5ae] font-['Manrope'] hover:text-[#795900] transition-colors duration-300" href="#">Clases</a>
+<a class="text-[#325f9b] dark:text-[#d3c5ae] font-['Manrope'] hover:text-[#795900] transition-colors duration-300" href="#">Calendario</a>
+</div>
+<a class="bg-primary hover:scale-105 transition-transform duration-200 text-on-primary px-6 py-2 rounded-lg font-label font-bold text-sm tracking-wide" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quisiera%20realizar%20una%20consulta%20general%20sobre%20la%20Academia">
+                WhatsApp
+            </a>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative px-8 py-20 lg:py-32">
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="max-w-3xl">
+<span class="inline-block py-1 px-3 mb-6 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold tracking-widest uppercase font-label">
+                        Ciclo 2026
+                    </span>
+<h1 class="text-6xl md:text-7xl font-bold text-on-surface mb-8 leading-tight tracking-tighter">
+                        Forjando la Identidad del <span class="text-primary italic">Movimiento</span>.
+                    </h1>
+<p class="text-xl text-on-surface-variant font-body leading-relaxed mb-10 max-w-2xl">
+                        Nuestra academia es el refugio donde la tradición del Folklore y la elegancia del Tango se encuentran. Más de 200 alumnos dan vida a un espacio de excelencia profesional y conexión cultural profunda.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<a class="organic-gradient text-on-primary px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:scale-102 transition-transform" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quiero%20inscribirme%20en%20la%20Academia%20para%20el%20Ciclo%202026">
+                            Inscribirme Ahora
+                        </a>
+<div class="flex items-center gap-4 px-6 py-4 bg-surface-container-low rounded-lg outline-variant/20 outline-1 outline">
+<span class="font-label text-sm font-bold text-on-surface-variant">200+ Alumnos activos • Unite a nuestra comunidad</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Academy Offer: Bento Grid -->
+<section class="px-8 py-16 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16">
+<h2 class="text-4xl md:text-5xl font-bold mb-4">Oferta Académica</h2>
+<div class="h-1 w-24 bg-primary"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Featured: Profesorado Profesional -->
+<div class="md:col-span-8 bg-surface-container-lowest p-10 rounded-xl shadow-sm relative group overflow-hidden">
+<div class="relative z-10">
+<span class="text-primary font-bold text-sm tracking-widest uppercase mb-4 block">Nivel Superior</span>
+<h3 class="text-4xl font-bold mb-6">Profesorado Profesional</h3>
+<p class="text-on-surface-variant text-lg mb-8 max-w-xl leading-relaxed">
+                                Un trayecto formativo de alto rendimiento diseñado para quienes buscan convertir su pasión en su profesión. Formación técnica exhaustiva, pedagogía del movimiento e historia de nuestra cultura.
+                            </p>
+<ul class="space-y-4 mb-10">
+<li class="flex items-center gap-3">
+<span class="font-body text-on-surface font-medium">• Técnica avanzada en Folklore y Zapateo</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="font-body text-on-surface font-medium">• Metodología de la Danza y Composición</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="font-body text-on-surface font-medium">• Prácticas escénicas integrales</span>
+</li>
+</ul>
+<a class="inline-flex items-center gap-2 text-secondary font-bold text-lg hover:underline" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quiero%20averiguar%20sobre%20el%20Profesorado">
+                                Consultar Plan de Estudios
+                            </a>
+</div>
+</div>
+<!-- Side Grid Items -->
+<div class="md:col-span-4 grid grid-rows-2 gap-6">
+<a class="bg-secondary text-on-secondary p-8 rounded-xl flex flex-col justify-between hover:opacity-90 transition-opacity" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quiero%20averiguar%20sobre%20las%20clases%20para%20Ni%C3%B1os">
+<div>
+<h4 class="text-2xl font-bold mb-2">Infantil</h4>
+<p class="opacity-80 font-body text-sm leading-relaxed">Iniciación al movimiento y juego rítmico para los más pequeños.</p>
+</div>
+<span class="text-sm font-bold uppercase tracking-wider">Ver más</span>
+</a>
+<a class="bg-primary-container text-on-primary-container p-8 rounded-xl flex flex-col justify-between hover:opacity-90 transition-opacity" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quiero%20averiguar%20sobre%20las%20clases%20para%20J%C3%B3venes">
+<div>
+<h4 class="text-2xl font-bold mb-2">Juvenil</h4>
+<p class="opacity-80 font-body text-sm leading-relaxed">Perfeccionamiento técnico y expresión artística en la adolescencia.</p>
+</div>
+<span class="text-sm font-bold uppercase tracking-wider">Ver más</span>
+</a>
+</div>
+<!-- Adultos Block -->
+<div class="md:col-span-12 bg-tertiary-container/10 p-10 rounded-xl flex flex-col md:flex-row items-center justify-between gap-8 border border-tertiary-container/20">
+<div class="max-w-2xl">
+<h3 class="text-3xl font-bold text-on-tertiary-container mb-4">Adultos: Tradición y Recreación</h3>
+<p class="text-on-tertiary-container/80 font-body text-lg">
+                                Espacios pensados para quienes desean aprender, disfrutar y conectar con nuestras raíces. No importa el nivel previo, solo las ganas de bailar.
+                            </p>
+</div>
+<a class="bg-tertiary text-on-tertiary px-10 py-4 rounded-lg font-bold text-lg shadow-lg hover:bg-on-tertiary-fixed-variant transition-colors" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quiero%20averiguar%20sobre%20las%20clases%20para%20Adultos">
+                            Ver Niveles para Adultos
+                        </a>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA WhatsApp Section -->
+<section class="py-24 px-8 text-center relative bg-background">
+<div class="max-w-4xl mx-auto">
+<span class="text-primary font-bold tracking-widest uppercase mb-4 block">Contacto Directo</span>
+<h2 class="text-5xl md:text-6xl font-bold mb-8">Consultá Horarios y Aranceles</h2>
+<p class="text-xl text-on-surface-variant font-body mb-12">
+                    Para recibir el catálogo completo de clases, horarios personalizados para el Ciclo 2026 y aranceles vigentes, escribinos directamente por WhatsApp.
+                </p>
+<a class="inline-flex items-center gap-4 bg-primary text-on-primary px-12 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform shadow-xl" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quiero%20consultar%20por%20horarios%20y%20aranceles%20del%20Ciclo%202026">
+                    Enviar Mensaje al 2804368485
+                </a>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#fcf9f8] dark:bg-[#1b1c1c] w-full py-12 px-8 border-t border-surface-dim/20">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left max-w-7xl mx-auto">
+<div>
+<span class="font-['Noto_Serif'] font-bold text-xl text-[#795900] dark:text-[#D4A017]">Ayün Mapu</span>
+<p class="font-['Manrope'] text-xs uppercase tracking-widest text-[#325f9b] opacity-80 mt-2">Danza • Cultura • Tradición</p>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="font-['Manrope'] text-sm uppercase tracking-widest text-[#325f9b] opacity-80 hover:opacity-100 hover:text-[#b52619] transition-opacity" href="#">Herencia</a>
+<a class="font-['Manrope'] text-sm uppercase tracking-widest text-[#795900] underline hover:text-[#b52619]" href="#">Academia</a>
+<a class="font-['Manrope'] text-sm uppercase tracking-widest text-[#325f9b] opacity-80 hover:opacity-100 hover:text-[#b52619]" href="#">Clases</a>
+<a class="font-['Manrope'] text-sm uppercase tracking-widest text-[#325f9b] opacity-80 hover:opacity-100 hover:text-[#b52619]" href="https://wa.me/2804368485?text=Hola%20Jos%C3%A9%20Luis%2C%20quisiera%20realizar%20una%20consulta">WhatsApp</a>
+</div>
+<div class="md:text-right">
+<p class="font-['Manrope'] text-sm text-[#325f9b] opacity-80">© 2026 Ayün Mapu. <a class="underline hover:text-primary transition-colors" href="https://studio-portfolio-two.vercel.app/">Creado por Studio</a></p>
+</div>
+</div>
+</footer>
+</body></html>
